@@ -77,7 +77,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       {/* Breadcrumb */}
       <div className="bg-background border-b border-gray-100">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <nav className="flex items-center gap-2 text-sm text-text-light">
             <Link href="/" className="hover:text-primary transition-colors">Home</Link>
             <ChevronRight className="w-3 h-3" />
@@ -90,7 +90,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       {/* Article */}
       <article className="bg-white py-10 md:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back link */}
           <Link
             href="/blog"
@@ -158,11 +158,10 @@ export default async function BlogPostPage({ params }: PageProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="prose prose-lg max-w-none
+            className="blog-content prose prose-lg max-w-none
               prose-headings:font-heading prose-headings:text-text prose-headings:font-bold
-              prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
-              prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
-              prose-p:text-text-light prose-p:leading-relaxed
+              prose-h2:text-2xl prose-h3:text-xl
+              prose-p:text-text-light
               prose-li:text-text-light
               prose-strong:text-text
               prose-a:text-primary prose-a:no-underline hover:prose-a:underline
@@ -208,7 +207,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       {/* Related Posts */}
       {relatedPosts.length > 0 && (
         <section className="bg-background py-12 md:py-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="font-heading text-2xl font-bold text-text mb-8">
               Related Articles
             </h2>

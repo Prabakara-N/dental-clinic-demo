@@ -44,6 +44,51 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
 }
 
+/* Blog content spacing */
+.blog-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.blog-content h2:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.blog-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-content p {
+  margin-bottom: 1.25rem;
+  line-height: 1.85;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.8;
+  padding-left: 0.25rem;
+}
+
+.blog-content li strong {
+  display: inline;
+}
+
+.blog-content strong {
+  font-weight: 600;
+}
+
 /* Before/After slider */
 .before-after-slider {
   position: relative;
