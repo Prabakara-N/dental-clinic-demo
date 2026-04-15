@@ -2,8 +2,10 @@
 
 import { useState, type FormEvent } from "react";
 import { motion } from "framer-motion";
-import { Phone, CheckCircle2, Calendar } from "lucide-react";
+import { Phone, CheckCircle2, Calendar, Stethoscope, Clock, Search } from "lucide-react";
 import { CLINIC, APPOINTMENT_TYPES, TIME_SLOTS, REFERRAL_SOURCES } from "@/lib/constants";
+import CustomDropdown from "@/components/ui/CustomDropdown";
+import CustomCalendar from "@/components/ui/CustomCalendar";
 
 interface FormData {
   name: string;
@@ -33,6 +35,11 @@ const initialFormData: FormData = {
   referralSource: "",
 };
 
+const TIME_GROUPS = [
+  { label: "Morning", options: TIME_SLOTS.slice(0, 4) },
+  { label: "Evening", options: TIME_SLOTS.slice(4) },
+] as const;
+
 export default function AppointmentForm() {
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [submitted, setSubmitted] = useState(false);
@@ -45,8 +52,6 @@ export default function AppointmentForm() {
     e.preventDefault();
     setSubmitted(true);
   };
-
-  const today = new Date().toISOString().split("T")[0];
 
   if (submitted) {
     return (
@@ -205,17 +210,14 @@ export default function AppointmentForm() {
         <label className="block text-sm font-semibold text-text mb-1.5">
           Appointment Type <span className="text-emergency">*</span>
         </label>
-        <select
-          required
+        <CustomDropdown
           value={formData.appointmentType}
-          onChange={(e) => handleChange("appointmentType", e.target.value)}
-          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-text bg-white"
-        >
-          <option value="">Select appointment type</option>
-          {APPOINTMENT_TYPES.map((t) => (
-            <option key={t} value={t}>{t}</option>
-          ))}
-        </select>
+          onChange={(val) => handleChange("appointmentType", val)}
+          placeholder="Select appointment type"
+          options={APPOINTMENT_TYPES}
+          required
+          icon={<Stethoscope className="w-5 h-5" />}
+        />
       </div>
 
       {/* Date & Time */}
@@ -224,37 +226,25 @@ export default function AppointmentForm() {
           <label className="block text-sm font-semibold text-text mb-1.5">
             Preferred Date <span className="text-emergency">*</span>
           </label>
-          <input
-            type="date"
-            required
-            min={today}
+          <CustomCalendar
             value={formData.date}
-            onChange={(e) => handleChange("date", e.target.value)}
-            className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-text"
+            onChange={(val) => handleChange("date", val)}
+            required
+            placeholder="Pick a date"
           />
         </div>
         <div>
           <label className="block text-sm font-semibold text-text mb-1.5">
             Preferred Time <span className="text-emergency">*</span>
           </label>
-          <select
-            required
+          <CustomDropdown
             value={formData.time}
-            onChange={(e) => handleChange("time", e.target.value)}
-            className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-text bg-white"
-          >
-            <option value="">Select time slot</option>
-            <optgroup label="Morning">
-              {TIME_SLOTS.slice(0, 4).map((t) => (
-                <option key={t} value={t}>{t}</option>
-              ))}
-            </optgroup>
-            <optgroup label="Evening">
-              {TIME_SLOTS.slice(4).map((t) => (
-                <option key={t} value={t}>{t}</option>
-              ))}
-            </optgroup>
-          </select>
+            onChange={(val) => handleChange("time", val)}
+            placeholder="Select time slot"
+            groups={TIME_GROUPS}
+            required
+            icon={<Clock className="w-5 h-5" />}
+          />
         </div>
       </div>
 
@@ -277,16 +267,13 @@ export default function AppointmentForm() {
         <label className="block text-sm font-semibold text-text mb-1.5">
           How Did You Hear About Us?
         </label>
-        <select
+        <CustomDropdown
           value={formData.referralSource}
-          onChange={(e) => handleChange("referralSource", e.target.value)}
-          className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-text bg-white"
-        >
-          <option value="">Select option</option>
-          {REFERRAL_SOURCES.map((s) => (
-            <option key={s} value={s}>{s}</option>
-          ))}
-        </select>
+          onChange={(val) => handleChange("referralSource", val)}
+          placeholder="Select option"
+          options={REFERRAL_SOURCES}
+          icon={<Search className="w-5 h-5" />}
+        />
       </div>
 
       {/* Submit */}

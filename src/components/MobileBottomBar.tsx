@@ -1,5 +1,6 @@
-import { Phone, Calendar, MessageCircle } from "lucide-react";
+import { Phone, Calendar } from "lucide-react";
 import { CLINIC } from "@/lib/constants";
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 
 export default function MobileBottomBar() {
   return (
@@ -25,7 +26,7 @@ export default function MobileBottomBar() {
           rel="noopener noreferrer"
           className="flex flex-col items-center justify-center py-2.5 gap-0.5 text-green-600 hover:bg-green-50 active:bg-green-100 transition-colors"
         >
-          <MessageCircle className="w-5 h-5" />
+          <WhatsAppIcon className="w-5 h-5" />
           <span className="text-[11px] font-semibold">WhatsApp</span>
         </a>
       </div>

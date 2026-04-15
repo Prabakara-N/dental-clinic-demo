@@ -81,7 +81,7 @@ export default function ServicesPage() {
                 className={`rounded-2xl bg-white border ${color.border} shadow-sm overflow-hidden`}
               >
                 {/* Card header */}
-                <div className="px-6 md:px-10 pt-8 md:pt-10 pb-6 flex items-start gap-5">
+                <div className="px-6 md:px-10 pt-8 md:pt-10 pb-6 flex flex-col md:flex-row md:items-start gap-4 md:gap-5">
                   <div className={`w-14 h-14 ${color.icon} rounded-2xl flex items-center justify-center flex-shrink-0`}>
                     <Icon className="w-7 h-7" />
                   </div>

@@ -1,7 +1,8 @@
 import {
-  Phone, Mail, MapPin, Clock, MessageCircle,
+  Phone, Mail, MapPin, Clock,
 } from "lucide-react";
 import { CLINIC } from "@/lib/constants";
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 import SectionHeading from "@/components/SectionHeading";
 import MotionDiv from "@/components/motion/MotionDiv";
 import ContactForm from "@/components/ContactForm";
@@ -69,7 +70,7 @@ export default function ContactPage() {
                 {/* WhatsApp */}
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <MessageCircle className="w-6 h-6 text-green-600" />
+                    <WhatsAppIcon className="w-6 h-6 text-green-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-text mb-2">WhatsApp</h3>
@@ -79,7 +80,6 @@ export default function ContactPage() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl font-semibold transition-all text-lg"
                     >
-                      <MessageCircle className="w-5 h-5" />
                       Message us on WhatsApp
                     </a>
                   </div>
