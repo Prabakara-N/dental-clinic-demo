@@ -16,11 +16,11 @@ import {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Smile Care Dental Clinic Tiruppur | Best Dentist | Dr. Karthikeyan",
-    template: "%s | Smile Care Dental Clinic",
+    default: "Kurinji Dental Centre Tiruppur | Best Dentist | Dr. Umamaheshwari",
+    template: "%s | Kurinji Dental Centre",
   },
   description:
-    "Advanced dental clinic in Tiruppur. Braces, implants, root canal, teeth whitening. Painless treatment by Dr. Karthikeyan (MDS). Book appointment: 96001-23456.",
+    "Trusted dental clinic in Anupparpalayam, Tiruppur. Braces, implants, root canal, teeth whitening. Painless treatment by Dr. Umamaheshwari (BDS). Book appointment: 96001-23456.",
   keywords: [
     "dentist in Tiruppur",
     "dental clinic Tiruppur",
@@ -29,22 +29,22 @@ export const metadata: Metadata = {
     "implant Tiruppur",
     "root canal Tiruppur",
     "teeth whitening Tiruppur",
-    "orthodontist Tiruppur",
+    "Anupparpalayam dentist",
     "pediatric dentist Tiruppur",
     "dental implants Tiruppur",
-    "smile care dental",
-    "Dr Karthikeyan dentist",
+    "Kurinji Dental Centre",
+    "Dr Umamaheshwari dentist",
   ],
-  authors: [{ name: "Dr. S. Karthikeyan", url: `${SITE_URL}/about` }],
-  creator: "Smile Care Dental Clinic",
-  publisher: "Smile Care Dental Clinic",
+  authors: [{ name: "Dr. Umamaheshwari S", url: `${SITE_URL}/about` }],
+  creator: "Kurinji Dental Centre",
+  publisher: "Kurinji Dental Centre",
   alternates: {
     canonical: SITE_URL,
   },
   openGraph: {
-    title: "Smile Care Dental Clinic Tiruppur | Best Dentist",
+    title: "Kurinji Dental Centre Tiruppur | Best Dentist",
     description:
-      "Advanced dental care with a gentle touch. Braces, implants, root canal, teeth whitening. Book your appointment today.",
+      "Compassionate dental care with a gentle touch. Braces, implants, root canal, teeth whitening. Book your appointment today.",
     url: SITE_URL,
     siteName: SEO.siteName,
     locale: SEO.locale,
@@ -54,15 +54,15 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Smile Care Dental Clinic Tiruppur - Modern dental care facility",
+        alt: "Kurinji Dental Centre Tiruppur - Modern dental care facility",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Smile Care Dental Clinic Tiruppur | Best Dentist",
+    title: "Kurinji Dental Centre Tiruppur | Best Dentist",
     description:
-      "Advanced dental care with a gentle touch. Book your appointment today.",
+      "Compassionate dental care with a gentle touch. Book your appointment today.",
     images: ["/og-image.jpg"],
   },
   robots: {

@@ -38,10 +38,10 @@ export default function Navbar() {
             </div>
             <div>
               <span className="font-heading font-bold text-lg text-primary leading-tight block">
-                Smile Care
+                Kurinji
               </span>
               <span className="text-[10px] text-text-light leading-none hidden sm:block">
-                Dental Clinic
+                Dental Centre
               </span>
             </div>
           </Link>

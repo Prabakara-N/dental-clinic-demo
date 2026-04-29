@@ -192,8 +192,8 @@ export default function HomePage() {
             <MotionDiv {...fadeInUp} className="relative">
               <div className="rounded-3xl overflow-hidden shadow-xl aspect-[3/4] max-w-md mx-auto lg:mx-0">
                 <Image
-                  src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=800&fit=crop&crop=face"
-                  alt="Dr. S. Karthikeyan - Dentist"
+                  src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=800&fit=crop&crop=face"
+                  alt="Dr. Umamaheshwari S - Dentist"
                   fill
                   className="object-cover"
                 />
@@ -267,7 +267,7 @@ export default function HomePage() {
       <section className="bg-gradient-to-br from-primary to-primary-dark py-16 md:py-24 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            subtitle="Why Smile Care?"
+            subtitle="Why Kurinji Dental?"
             title="Why Choose Us"
             description="We combine modern technology with a gentle, caring approach to make your dental visit comfortable."
             light
@@ -435,14 +435,14 @@ export default function HomePage() {
             {/* Map */}
             <MotionDiv {...fadeInUp} transition={{ delay: 0.2 }} className="rounded-2xl overflow-hidden shadow-lg h-80 lg:h-auto min-h-[320px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.8!2d77.34!3d11.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPalladam+Road%2C+Tiruppur!5e0!3m2!1sen!2sin!4v1"
+                src="https://www.google.com/maps?q=Kurinji+Dental+Centre+Anupparpalayam+Tiruppur&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Smile Care Dental Clinic Location"
+                title="Kurinji Dental Centre Location"
               />
             </MotionDiv>
           </div>

@@ -30,8 +30,8 @@ interface CategoryInfo {
 }
 
 const AUTHOR = {
-  name: "Dr. S. Karthikeyan",
-  qualifications: "BDS, MDS (Orthodontics)",
+  name: "Dr. Umamaheshwari S",
+  qualifications: "BDS",
 } as const;
 
 const BLOG_POSTS: readonly BlogPost[] = [
@@ -40,14 +40,14 @@ const BLOG_POSTS: readonly BlogPost[] = [
     title: "How Often Should You Visit a Dentist?",
     excerpt:
       "Regular dental check-ups every 6 months can prevent serious problems and save you money in the long run. Learn why preventive care is the best investment for your oral health.",
-    content: `<p>One of the most common questions patients ask us at Smile Care Dental Clinic is: <strong>"How often should I visit the dentist?"</strong> The short answer is every 6 months — but let's explore why this matters and what happens during a routine dental visit.</p>
+    content: `<p>One of the most common questions patients ask us at Kurinji Dental Centre is: <strong>"How often should I visit the dentist?"</strong> The short answer is every 6 months — but let's explore why this matters and what happens during a routine dental visit.</p>
 
 <h2>Why Every 6 Months?</h2>
 <p>Many dental problems develop silently. Cavities, gum disease, and even oral cancer can progress without noticeable symptoms in their early stages. By the time you feel pain or notice something wrong, the problem has often become more complex — and more expensive — to treat.</p>
 <p>A routine check-up allows your dentist to catch issues early when they're small and manageable. For example, a tiny cavity caught during a check-up might need a simple ₹500 filling. Left undetected for a year, that same cavity could require a root canal costing ₹5,000 or more.</p>
 
 <h2>What Happens During a Dental Check-up?</h2>
-<p>At Smile Care, a typical check-up includes:</p>
+<p>At Kurinji Dental, a typical check-up includes:</p>
 <ul>
 <li><strong>Visual examination</strong> — checking each tooth for decay, cracks, or wear</li>
 <li><strong>Gum health assessment</strong> — measuring gum pockets to detect early gum disease</li>
@@ -70,7 +70,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <p>We understand that life gets busy and dental visits can feel like a low priority when nothing hurts. But preventive care is always cheaper than restorative care. A ₹500 cleaning today can prevent a ₹25,000 implant tomorrow.</p>
 
 <h2>Book Your Check-up</h2>
-<p>If it's been more than 6 months since your last dental visit, now is the perfect time to schedule one. At Smile Care Dental Clinic in Tiruppur, we make check-ups quick, comfortable, and affordable. Call us at 96001-23456 or book online.</p>`,
+<p>If it's been more than 6 months since your last dental visit, now is the perfect time to schedule one. At Kurinji Dental Centre in Tiruppur, we make check-ups quick, comfortable, and affordable. Call us at 96001-23456 or book online.</p>`,
     image:
       "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&h=400&fit=crop",
     category: "preventive-care",
@@ -85,7 +85,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
     title: "Braces for Adults: It's Never Too Late for a Perfect Smile",
     excerpt:
       "Think braces are only for teenagers? Think again! More adults than ever are getting orthodontic treatment. Discover your options for a straighter smile at any age.",
-    content: `<p>At Smile Care Dental Clinic, nearly <strong>40% of our orthodontic patients are adults</strong>. If you've been putting off getting braces because you think you're "too old," let us set the record straight — it's never too late to straighten your teeth.</p>
+    content: `<p>At Kurinji Dental Centre, nearly <strong>40% of our orthodontic patients are adults</strong>. If you've been putting off getting braces because you think you're "too old," let us set the record straight — it's never too late to straighten your teeth.</p>
 
 <h2>Why Are More Adults Getting Braces?</h2>
 <p>Several factors are driving the adult orthodontics trend:</p>
@@ -96,7 +96,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <li><strong>Better technology</strong> — modern treatments are faster and more comfortable than ever</li>
 </ul>
 
-<h2>Your Options at Smile Care</h2>
+<h2>Your Options at Kurinji Dental</h2>
 
 <h3>1. Metal Braces (₹25,000 - ₹40,000)</h3>
 <p>Traditional metal braces remain the most effective option for complex cases. Modern brackets are smaller and more comfortable than the ones you might remember from decades ago. Treatment typically takes 12-24 months.</p>
@@ -120,7 +120,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <p>We understand that orthodontic treatment is a significant investment. That's why we offer flexible EMI options through Bajaj Finserv, HDFC, and ICICI for treatments above ₹10,000. You can start your journey to a perfect smile with a manageable monthly payment.</p>
 
 <h2>Take the First Step</h2>
-<p>Book a free orthodontic consultation at Smile Care Dental Clinic, Tiruppur. Dr. Karthikeyan (MDS, Orthodontics) will assess your teeth and recommend the best treatment option for your needs and budget.</p>`,
+<p>Book a free orthodontic consultation at Kurinji Dental Centre, Tiruppur. Dr. Umamaheshwari (BDS) will assess your teeth and recommend the best treatment option for your needs and budget.</p>`,
     image:
       "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=400&fit=crop",
     category: "orthodontics",
@@ -135,7 +135,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
     title: "5 Foods That Are Secretly Damaging Your Teeth",
     excerpt:
       "Some foods that seem healthy can actually harm your teeth. Learn about hidden dangers in your diet and how to protect your smile while eating well.",
-    content: `<p>You brush twice a day and floss regularly — but did you know that some of the foods you eat every day could be quietly damaging your teeth? At Smile Care Dental Clinic, we see the effects of dietary choices on dental health every day. Here are five surprising culprits.</p>
+    content: `<p>You brush twice a day and floss regularly — but did you know that some of the foods you eat every day could be quietly damaging your teeth? At Kurinji Dental Centre, we see the effects of dietary choices on dental health every day. Here are five surprising culprits.</p>
 
 <h2>1. Citrus Fruits and Juices</h2>
 <p>Oranges, lemons, and grapefruits are packed with vitamin C, but their high acidity erodes tooth enamel over time. The acid softens the enamel, making teeth vulnerable to decay.</p>
@@ -167,7 +167,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 </ul>
 
 <h2>Protect Your Smile</h2>
-<p>A balanced diet combined with regular dental check-ups is the best way to keep your teeth healthy. If you're concerned about the effects of your diet on your dental health, visit us at Smile Care Dental Clinic for a comprehensive check-up.</p>`,
+<p>A balanced diet combined with regular dental check-ups is the best way to keep your teeth healthy. If you're concerned about the effects of your diet on your dental health, visit us at Kurinji Dental Centre for a comprehensive check-up.</p>`,
     image:
       "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=600&h=400&fit=crop",
     category: "oral-health-tips",
@@ -188,7 +188,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <p>Professional teeth whitening performed by a qualified dentist is safe and effective. The key word is "professional." Over-the-counter products and DIY hacks (like charcoal or baking soda) can damage your enamel if used incorrectly.</p>
 
 <h2>How Professional Whitening Works</h2>
-<p>At Smile Care Dental Clinic, we use a controlled concentration of hydrogen peroxide or carbamide peroxide gel. Here's the process:</p>
+<p>At Kurinji Dental Centre, we use a controlled concentration of hydrogen peroxide or carbamide peroxide gel. Here's the process:</p>
 <ol>
 <li><strong>Assessment</strong> — we check your teeth and gums to ensure you're a good candidate</li>
 <li><strong>Protection</strong> — a barrier is applied to protect your gums from the whitening agent</li>
@@ -221,7 +221,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <p><strong>"Results are permanent"</strong> — Whitening results last 1-3 years depending on your diet and habits. Coffee, tea, and tobacco will gradually re-stain teeth.</p>
 <p><strong>"All whitening products are the same"</strong> — Professional-grade products are significantly stronger and more effective than over-the-counter options.</p>
 
-<h2>Pricing at Smile Care</h2>
+<h2>Pricing at Kurinji Dental</h2>
 <p>Professional teeth whitening at our clinic costs ₹5,000 - ₹15,000, depending on the method and number of sessions. EMI options are available. Book a consultation to find out which option is right for you.</p>`,
     image:
       "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&h=400&fit=crop",
@@ -262,7 +262,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 </ul>
 <p>If you're experiencing any of these symptoms, don't wait — early treatment is simpler and more effective.</p>
 
-<h2>What to Expect at Smile Care</h2>
+<h2>What to Expect at Kurinji Dental</h2>
 <ol>
 <li><strong>Diagnosis</strong> — digital X-ray to assess the infection</li>
 <li><strong>Anesthesia</strong> — the area is completely numbed</li>
@@ -272,10 +272,10 @@ const BLOG_POSTS: readonly BlogPost[] = [
 </ol>
 
 <h2>Cost of Root Canal in Tiruppur</h2>
-<p>At Smile Care Dental Clinic, root canal treatment costs ₹3,000 - ₹8,000 per tooth, depending on the tooth location and complexity. This is a fraction of the cost of extracting the tooth and replacing it with an implant (₹25,000+).</p>
+<p>At Kurinji Dental Centre, root canal treatment costs ₹3,000 - ₹8,000 per tooth, depending on the tooth location and complexity. This is a fraction of the cost of extracting the tooth and replacing it with an implant (₹25,000+).</p>
 
 <h2>Save Your Natural Tooth</h2>
-<p>A root canal saves your natural tooth, which is always better than an artificial replacement. Your natural tooth has better biting force, sensation, and appearance. Don't let fear prevent you from saving your tooth — visit Smile Care for a comfortable, painless experience.</p>`,
+<p>A root canal saves your natural tooth, which is always better than an artificial replacement. Your natural tooth has better biting force, sensation, and appearance. Don't let fear prevent you from saving your tooth — visit Kurinji Dental for a comfortable, painless experience.</p>`,
     image:
       "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&h=400&fit=crop",
     category: "dental-procedures",
@@ -302,7 +302,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <p>Once placed, an implant integrates with your jawbone through a process called osseointegration, creating an incredibly strong and permanent foundation.</p>
 
 <h2>Dental Implant Cost in Tiruppur</h2>
-<p>At Smile Care Dental Clinic, a single dental implant costs <strong>₹25,000 - ₹40,000</strong>. This includes:</p>
+<p>At Kurinji Dental Centre, a single dental implant costs <strong>₹25,000 - ₹40,000</strong>. This includes:</p>
 <ul>
 <li>Consultation and CT scan</li>
 <li>Titanium implant placement</li>
@@ -342,7 +342,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <p>We offer flexible EMI payment options through Bajaj Finserv, HDFC, and ICICI, making implants accessible to more patients. You can start your treatment with a manageable monthly payment.</p>
 
 <h2>Book Your Implant Consultation</h2>
-<p>Visit Smile Care Dental Clinic on Palladam Road, Tiruppur for a thorough assessment. Dr. Karthikeyan will create a personalized treatment plan and give you an exact cost estimate based on your specific needs.</p>`,
+<p>Visit Kurinji Dental Centre in Anupparpalayam, Tiruppur for a thorough assessment. Dr. Umamaheshwari will create a personalized treatment plan and give you an exact cost estimate based on your specific needs.</p>`,
     image:
       "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=400&fit=crop",
     category: "dental-procedures",
@@ -372,7 +372,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <p>A first dental visit for a toddler is gentle and brief:</p>
 <ul>
 <li>The child sits on the parent's lap in the dental chair</li>
-<li>Dr. Karthikeyan does a gentle visual examination of teeth and gums</li>
+<li>Dr. Umamaheshwari does a gentle visual examination of teeth and gums</li>
 <li>We check for early cavities, mouth breathing habits, and bite issues</li>
 <li>A quick cleaning if needed</li>
 <li>Guidance on brushing, diet, thumb-sucking, and pacifier use</li>
@@ -397,10 +397,10 @@ const BLOG_POSTS: readonly BlogPost[] = [
 </ol>
 
 <h2>Our Child-Friendly Clinic</h2>
-<p>At Smile Care Dental Clinic, we love treating kids! Our clinic has a welcoming environment where children feel safe and comfortable. We take extra time to explain everything in child-friendly language and never rush a nervous child.</p>
+<p>At Kurinji Dental Centre, we love treating kids! Our clinic has a welcoming environment where children feel safe and comfortable. We take extra time to explain everything in child-friendly language and never rush a nervous child.</p>
 
 <h2>Book Your Child's First Visit</h2>
-<p>Don't wait for a problem to bring your child to the dentist. Schedule their first visit at Smile Care Dental Clinic, Tiruppur. Pediatric dental check-ups start at just ₹300-₹500.</p>`,
+<p>Don't wait for a problem to bring your child to the dentist. Schedule their first visit at Kurinji Dental Centre, Tiruppur. Pediatric dental check-ups start at just ₹300-₹500.</p>`,
     image:
       "https://images.unsplash.com/photo-1588776813677-77aaf5595b83?w=600&h=400&fit=crop",
     category: "pediatric-dentistry",
@@ -422,7 +422,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <p><strong>Pros:</strong></p>
 <ul>
 <li>Most effective for complex cases (severe crowding, large gaps, significant bite issues)</li>
-<li>Most affordable option (₹25,000 - ₹40,000 at Smile Care)</li>
+<li>Most affordable option (₹25,000 - ₹40,000 at Kurinji Dental)</li>
 <li>No compliance required — they work 24/7 since they can't be removed</li>
 <li>Faster results for complex cases</li>
 </ul>
@@ -479,7 +479,7 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <p>Can't decide? Ceramic braces (₹35,000 - ₹55,000) offer a middle ground — they work like metal braces but use tooth-colored brackets that are much less noticeable.</p>
 
 <h2>Get Expert Advice</h2>
-<p>The best way to decide is a professional consultation. Dr. Karthikeyan at Smile Care Dental Clinic will evaluate your teeth and recommend the most effective option for your specific case. Book your consultation today.</p>`,
+<p>The best way to decide is a professional consultation. Dr. Umamaheshwari at Kurinji Dental Centre will evaluate your teeth and recommend the most effective option for your specific case. Book your consultation today.</p>`,
     image:
       "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=600&h=400&fit=crop",
     category: "orthodontics",
@@ -532,8 +532,8 @@ const BLOG_POSTS: readonly BlogPost[] = [
 </ul>
 <p>This is why treating gum disease during pregnancy isn't just about your teeth — it's about your baby's health too.</p>
 
-<h2>Visit Smile Care During Your Pregnancy</h2>
-<p>At Smile Care Dental Clinic, we provide gentle, safe dental care for expectant mothers. Dr. Karthikeyan takes extra precautions to ensure both your comfort and safety. Schedule your prenatal dental check-up by calling 96001-23456.</p>`,
+<h2>Visit Kurinji Dental During Your Pregnancy</h2>
+<p>At Kurinji Dental Centre, we provide gentle, safe dental care for expectant mothers. Dr. Umamaheshwari takes extra precautions to ensure both your comfort and safety. Schedule your prenatal dental check-up by calling 96001-23456.</p>`,
     image:
       "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?w=600&h=400&fit=crop",
     category: "oral-health-tips",
@@ -602,8 +602,8 @@ const BLOG_POSTS: readonly BlogPost[] = [
 <li>Do NOT wait — untreated abscesses can become life-threatening</li>
 </ul>
 
-<h2>Emergency Dental Care at Smile Care</h2>
-<p>At Smile Care Dental Clinic, we accommodate dental emergencies during clinic hours:</p>
+<h2>Emergency Dental Care at Kurinji Dental</h2>
+<p>At Kurinji Dental Centre, we accommodate dental emergencies during clinic hours:</p>
 <ul>
 <li><strong>Mon-Sat:</strong> 9:30 AM - 1:30 PM and 5:00 PM - 9:00 PM</li>
 <li><strong>Sunday:</strong> 10:00 AM - 1:00 PM (by appointment)</li>

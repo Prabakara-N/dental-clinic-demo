@@ -1,32 +1,30 @@
 export const CLINIC = {
-  name: "Smile Care Dental Clinic",
-  tagline: "Advanced Dental Care with a Gentle Touch",
+  name: "Kurinji Dental Centre",
+  tagline: "Compassionate Dental Care for Every Smile",
   doctor: {
-    name: "Dr. S. Karthikeyan",
-    qualifications: "BDS, MDS (Orthodontics)",
+    name: "Dr. Umamaheshwari S",
+    qualifications: "BDS",
     shortBio:
-      "Dr. Karthikeyan has over 8 years of experience in advanced dental care. He completed his MDS in Orthodontics from SRM Dental College, Chennai. He is passionate about creating beautiful smiles using the latest dental technology.",
-    specializations: ["Orthodontics", "Implantology", "Cosmetic Dentistry"],
+      "Dr. Umamaheshwari is a dedicated dental surgeon with extensive experience in family and cosmetic dentistry. She is passionate about pain-free treatments and personalized care, helping patients of all ages achieve healthy, confident smiles.",
+    specializations: ["General Dentistry", "Cosmetic Dentistry", "Pediatric Dentistry"],
     memberships: [
       "Indian Dental Association (IDA)",
-      "Indian Orthodontic Society (IOS)",
-      "International Association for Dental Research (IADR)",
+      "Tamil Nadu State Dental Council",
     ],
     education: [
-      { degree: "BDS", institution: "Vinayaka Missions Dental College, Salem", year: "2012" },
-      { degree: "MDS (Orthodontics)", institution: "SRM Dental College, Chennai", year: "2016" },
+      { degree: "BDS", institution: "Tamil Nadu Government Dental College", year: "2015" },
     ],
     experience: [
-      { role: "Senior Resident", place: "SRM Hospital, Chennai", period: "2016-2018" },
-      { role: "Founder & Chief Dentist", place: "Smile Care Dental Clinic", period: "2018-Present" },
+      { role: "Associate Dentist", place: "Coimbatore Dental Clinic", period: "2015-2018" },
+      { role: "Founder & Chief Dentist", place: "Kurinji Dental Centre", period: "2018-Present" },
     ],
-    languages: ["Tamil", "English", "Hindi"],
-    publications: "2 research papers in Indian Journal of Orthodontics",
+    languages: ["Tamil", "English"],
+    publications: "Active contributor to community dental health awareness camps in Tiruppur.",
   },
-  address: "No. 12, 2nd Floor, Kumar Complex, Palladam Road, Tiruppur, Tamil Nadu 641604",
+  address: "Opposite Kovai Departmental Store, Anupparpalayam, Tiruppur, Tamil Nadu 641652",
   phone: "+91-96001-23456",
   phoneDisplay: "96001-23456",
-  email: "appointment@smilecaretiruppur.com",
+  email: "appointment@kurinjidentaltiruppur.com",
   whatsapp: "+918072354657",
   established: 2018,
   timings: {
@@ -35,8 +33,8 @@ export const CLINIC = {
   },
   stats: {
     years: "8+",
-    patients: "15,000+",
-    rating: "4.8",
+    patients: "10,000+",
+    rating: "4.7",
   },
 } as const;
 
@@ -134,13 +132,13 @@ export const TESTIMONIALS = [
     name: "Priya M.",
     location: "Tiruppur",
     rating: 5,
-    text: "I was terrified of dentists, but Dr. Karthikeyan made me feel completely comfortable. My root canal was painless! Highly recommend Smile Care.",
+    text: "I was terrified of dentists, but Dr. Umamaheshwari made me feel completely comfortable. My root canal was painless! Highly recommend Kurinji Dental Centre.",
   },
   {
     name: "Arun K.",
     location: "Avinashi",
     rating: 5,
-    text: "Got my braces done here. The results are amazing! Dr. Karthikeyan is very patient and explains everything clearly. The clinic is very clean and modern.",
+    text: "Got my braces done here. The results are amazing! Dr. Umamaheshwari is very patient and explains everything clearly. The clinic is very clean and modern.",
   },
   {
     name: "Senthil & Family",
@@ -152,7 +150,7 @@ export const TESTIMONIALS = [
     name: "Lakshmi R.",
     location: "Tiruppur",
     rating: 5,
-    text: "Dr. Karthikeyan did my teeth whitening and the results are stunning! Very professional and the pricing is transparent. No hidden charges.",
+    text: "Dr. Umamaheshwari did my teeth whitening and the results are stunning! Very professional and the pricing is transparent. No hidden charges.",
   },
 ] as const;
 

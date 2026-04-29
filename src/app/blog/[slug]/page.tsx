@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!post) return {};
 
   return {
-    title: `${post.title} | Smile Care Dental Clinic`,
+    title: `${post.title} | Kurinji Dental Centre`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -191,7 +191,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               Need Dental Care?
             </h3>
             <p className="text-white/80 mb-6 max-w-md mx-auto">
-              Book an appointment at Smile Care Dental Clinic, Tiruppur. Expert care with a gentle touch.
+              Book an appointment at Kurinji Dental Centre, Tiruppur. Compassionate care with a gentle touch.
             </p>
             <Link
               href="/book-appointment"

@@ -9,9 +9,9 @@ import MotionDiv, { MotionArticle } from "@/components/motion/MotionDiv";
 import FAQAccordion from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "Dental Tips & Blog | Smile Care Dental Clinic Tiruppur",
+  title: "Dental Tips & Blog | Kurinji Dental Centre Tiruppur",
   description:
-    "Expert dental tips, guides, and articles from Dr. Karthikeyan. Learn about braces, implants, whitening, children's dentistry, and oral health care.",
+    "Expert dental tips, guides, and articles from Dr. Umamaheshwari. Learn about braces, implants, whitening, children's dentistry, and oral health care.",
 };
 
 const categoryLabels: Record<string, string> = {

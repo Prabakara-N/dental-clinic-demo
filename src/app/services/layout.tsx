@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SITE_URL, SEO } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Dental Services in Tiruppur | Braces, Implants, Root Canal | Smile Care",
+  title: "Dental Services in Tiruppur | Braces, Implants, Root Canal | Kurinji Dental",
   description:
     "Comprehensive dental services: orthodontics/braces, dental implants, cosmetic dentistry, root canal, pediatric dentistry, and general dentistry. Affordable pricing with EMI options.",
   alternates: {

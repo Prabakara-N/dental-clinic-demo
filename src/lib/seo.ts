@@ -1,12 +1,12 @@
 import { CLINIC, SERVICES, FAQS } from "./constants";
 import type { BlogPost } from "./blog";
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://smilecaretiruppur.com";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://kurinjidentaltiruppur.com";
 
 export const SEO = {
   siteName: CLINIC.name,
   locale: "en_IN",
-  twitterHandle: "@smilecaretiruppur",
+  twitterHandle: "@kurinjidental",
 } as const;
 
 export function createLocalBusinessSchema() {
@@ -16,22 +16,22 @@ export function createLocalBusinessSchema() {
     "@id": `${SITE_URL}/#dentist`,
     name: CLINIC.name,
     description:
-      "Advanced dental clinic in Tiruppur offering braces, implants, root canal, teeth whitening, and pediatric dentistry. Painless treatment by Dr. Karthikeyan (MDS).",
+      "Trusted dental clinic in Anupparpalayam, Tiruppur offering braces, implants, root canal, teeth whitening, and pediatric dentistry. Painless treatment by Dr. Umamaheshwari (BDS).",
     url: SITE_URL,
     telephone: CLINIC.phone,
     email: CLINIC.email,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "No. 12, 2nd Floor, Kumar Complex, Palladam Road",
+      streetAddress: "Opposite Kovai Departmental Store, Anupparpalayam",
       addressLocality: "Tiruppur",
       addressRegion: "Tamil Nadu",
-      postalCode: "641604",
+      postalCode: "641652",
       addressCountry: "IN",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 11.1,
-      longitude: 77.34,
+      latitude: 11.1085,
+      longitude: 77.3411,
     },
     openingHoursSpecification: [
       {
@@ -64,16 +64,16 @@ export function createLocalBusinessSchema() {
     founder: {
       "@type": "Person",
       name: CLINIC.doctor.name,
-      jobTitle: "Chief Dentist & Orthodontist",
+      jobTitle: "Chief Dentist",
       description: CLINIC.doctor.shortBio,
     },
-    medicalSpecialty: ["Orthodontics", "Implantology", "CosmeticDentistry", "Endodontics", "PediatricDentistry"],
+    medicalSpecialty: ["GeneralDentistry", "CosmeticDentistry", "Endodontics", "PediatricDentistry"],
     availableService: SERVICES.map((s) => ({
       "@type": "MedicalProcedure",
       name: s.title,
       description: s.shortDesc,
     })),
-    hasMap: "https://www.google.com/maps?q=Smile+Care+Dental+Clinic+Tiruppur",
+    hasMap: "https://www.google.com/maps?q=Kurinji+Dental+Centre+Anupparpalayam+Tiruppur",
     sameAs: [],
   };
 }
@@ -94,10 +94,10 @@ export function createOrganizationSchema() {
     },
     address: {
       "@type": "PostalAddress",
-      streetAddress: "No. 12, 2nd Floor, Kumar Complex, Palladam Road",
+      streetAddress: "Opposite Kovai Departmental Store, Anupparpalayam",
       addressLocality: "Tiruppur",
       addressRegion: "Tamil Nadu",
-      postalCode: "641604",
+      postalCode: "641652",
       addressCountry: "IN",
     },
   };

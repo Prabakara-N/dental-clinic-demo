@@ -45,16 +45,17 @@ export default function AboutPage() {
                 Our Story
               </span>
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-text mb-6">
-                About Smile Care Dental Clinic
+                About Kurinji Dental Centre
               </h2>
               <p className="text-text-light text-lg leading-relaxed mb-6">
-                Smile Care Dental Clinic was established in 2018 with a vision to
-                provide world-class dental care to the people of Tiruppur. Our
-                clinic features modern equipment, a sterile environment, and a
-                team dedicated to making your dental visit comfortable.
+                Kurinji Dental Centre was established in 2018 with a vision to
+                provide trusted, family-friendly dental care to the people of
+                Tiruppur. Our clinic in Anupparpalayam features modern equipment,
+                a sterile environment, and a team dedicated to making your
+                dental visit comfortable.
               </p>
               <p className="text-text-light leading-relaxed mb-8">
-                With over 15,000 happy patients and a 4.8-star Google rating, we
+                With over 10,000 happy patients and a 4.7-star Google rating, we
                 have earned the trust of families across Tiruppur and surrounding
                 areas. Our commitment to painless procedures, transparent pricing,
                 and personalized care sets us apart.
@@ -62,8 +63,8 @@ export default function AboutPage() {
               <div className="grid grid-cols-3 gap-4">
                 {[
                   { value: "8+", label: "Years" },
-                  { value: "15K+", label: "Patients" },
-                  { value: "4.8★", label: "Rating" },
+                  { value: "10K+", label: "Patients" },
+                  { value: "4.7★", label: "Rating" },
                 ].map((stat) => (
                   <div key={stat.label} className="text-center bg-primary/5 rounded-xl p-4">
                     <p className="font-heading font-bold text-2xl text-primary">{stat.value}</p>
@@ -107,7 +108,7 @@ export default function AboutPage() {
             <MotionDiv {...fadeInUp} className="lg:col-span-2">
               <div className="rounded-3xl overflow-hidden shadow-xl aspect-[3/4] sticky top-24">
                 <Image
-                  src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=800&fit=crop&crop=face"
+                  src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=800&fit=crop&crop=face"
                   alt={CLINIC.doctor.name}
                   fill
                   className="object-cover"

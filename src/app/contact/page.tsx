@@ -47,7 +47,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-text mb-1">Visit Us</h3>
                     <p className="text-text-light leading-relaxed">{CLINIC.address}</p>
-                    <p className="text-text-light text-sm mt-1">Near Kumar Complex, Palladam Road</p>
+                    <p className="text-text-light text-sm mt-1">Opposite Kovai Departmental Store, Anupparpalayam</p>
                   </div>
                 </div>
 
@@ -137,14 +137,14 @@ export default function ContactPage() {
           <SectionHeading title="Find Us on the Map" />
           <div className="rounded-2xl overflow-hidden shadow-lg h-80 md:h-[450px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.8!2d77.34!3d11.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPalladam+Road%2C+Tiruppur!5e0!3m2!1sen!2sin!4v1"
+              src="https://www.google.com/maps?q=Kurinji+Dental+Centre+Anupparpalayam+Tiruppur&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Smile Care Dental Clinic Location"
+              title="Kurinji Dental Centre Location"
             />
           </div>
         </div>
